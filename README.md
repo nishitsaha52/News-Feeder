@@ -4,7 +4,7 @@ Welcome to **News Feeder**! A modern React.js application designed to fetch the 
 
 ---
 
-![UI Preview](src/assets/ui-image.png)
+![UI Preview](https://github.com/nishitsaha52/News-Feeder/blob/main/Screenshot%202024-08-22%20161927.png)
 
 ## 🚀 **Features**
 
