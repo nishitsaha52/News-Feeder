@@ -3,9 +3,8 @@ import axios from 'axios';
 import { Form, Button, Spinner, Card, Row, Col, Accordion } from 'react-bootstrap';
 
 const SourceSelector = ({ selectedSources, setSelectedSources, darkMode }) => {
-  const [sources, setSources] = useState([]);
-  const [loading, setLoading] = useState(true);
   const [groupedSources, setGroupedSources] = useState({});
+  const [loading, setLoading] = useState(true);
   const [activeCountry, setActiveCountry] = useState('');
 
   useEffect(() => {
@@ -15,7 +14,6 @@ const SourceSelector = ({ selectedSources, setSelectedSources, darkMode }) => {
           `https://newsapi.org/v2/top-headlines/sources?apiKey=${process.env.REACT_APP_NEWS_API_KEY}`
         );
         const filteredSources = filterSources(response.data.sources);
-        setSources(filteredSources);
         groupSourcesByCountry(filteredSources);
         setLoading(false);
       } catch (error) {
