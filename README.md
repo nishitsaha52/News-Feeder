@@ -1,45 +1,49 @@
 # 📰 **News Feeder**
 
-Welcome to **News Feeder**! This React.js application fetches the latest news articles from the [News API](https://newsapi.org/) and presents them with a clean, modern interface. The app is designed to be both attractive and responsive, ensuring a great user experience on all devices.
+Welcome to **News Feeder**! A modern React.js application designed to fetch the latest news articles from the [News API](https://newsapi.org/) and present them in a sleek, responsive interface.
+
+---
+
+![UI Preview](src/assets/ui-image.png)
 
 ## 🚀 **Features**
 
-- **📡 Live News Feed:** Get real-time updates from various news sources.
-- **🗂️ Category Filters:** Browse news by categories such as Technology, Sports, Business, and more.
-- **🔍 Search Functionality:** Quickly news sources.
-- **🌐 Responsive Design:** Optimized for both desktop and mobile devices.
-- **✨ UI Themes:** Toggle between light and dark modes.
-- **🌀 Custom Scroll Bar:** Enhanced scrolling experience with a custom-designed scroll bar.
-- **⏳ Preloader:** A stylish preloader animation while news data is being fetched.
+- **📡 Live News Feed:** Stay updated with real-time news from multiple sources.
+- **🗂️ Category Filters:** Browse news across various categories like Technology, Sports, Business, etc.
+- **🔍 Search Functionality:** Find specific articles quickly with our integrated search bar.
+- **🌐 Responsive Design:** Seamlessly optimized for desktop and mobile viewing.
+- **✨ UI Themes:** Switch between light and dark modes for your reading comfort.
+- **🌀 Custom Scroll Bar:** Enjoy a smooth scrolling experience with our custom-designed scroll bar.
+- **⏳ Preloader:** Stylish preloader animation during data fetching for a polished user experience.
 
 ## 💻 **Prerequisites**
 
-Ensure you have the following:
+Ensure you have the following installed:
 
-- **Node.js** and **npm** installed
-- A valid API key from [News API](https://newsapi.org/) (sign up for a free key)
+- **Node.js** and **npm**
+- A valid API key from [News API](https://newsapi.org/) (Sign up for a free key)
 
 ## 📦 **Installation**
 
-1. **Clone the Repository**
+1. **Clone the Repository:**
 
    ```bash
    git clone https://github.com/yourusername/news-feeder.git
    ```
 
-2. **Navigate to the Project Directory**
+2. **Navigate to the Project Directory:**
 
    ```bash
    cd news-feeder
    ```
 
-3. **Install Dependencies**
+3. **Install Dependencies:**
 
    ```bash
    npm install
    ```
 
-4. **Set Up Environment Variables**
+4. **Set Up Environment Variables:**
 
    Create a `.env` file in the root directory with your News API key:
 
@@ -47,7 +51,7 @@ Ensure you have the following:
    REACT_APP_NEWS_API_KEY=your_news_api_key_here
    ```
 
-5. **Start the Development Server**
+5. **Start the Development Server:**
 
    ```bash
    npm start
@@ -57,53 +61,45 @@ Ensure you have the following:
 
 ## 🌟 **UI Options**
 
-### **1. Light and Dark Modes**
-
-Toggle between light and dark themes from the settings menu.
-
-### **2. Grid and List Views**
-
-Choose your preferred view for articles: grid for a visual layout with images or list for a streamlined text-based format.
-
-### **3. Customizable Layouts**
-
-Adjust the layout to your preference:
-
-- **Sidebar Position:** Choose between left or right sidebar.
-- **Font Sizes:** Customize font sizes for readability.
+- **Light and Dark Modes:** Toggle between themes from the settings menu.
+- **Grid and List Views:** Choose a visual grid layout or a streamlined list format for articles.
+- **Customizable Layouts:** 
+  - **Sidebar Position:** Place the sidebar on the left or right.
+  - **Font Sizes:** Adjust text size for optimal readability.
 
 ## 🖥️ **Usage**
 
-- **📂 Browse Categories:** Filter news by category using the sidebar.
-- **📰 View Articles:** Click headlines to read full articles.
-- **🔎 Search Articles:** Use the search bar to find specific news topics.
+- **Browse Categories:** Use the sidebar to filter news by category.
+- **View Articles:** Click on headlines to read the full article.
+- **Search Articles:** Utilize the search bar to find news on specific topics.
 
 ## 📂 **Project Structure**
 
-- `src/`
-  - `components/` - Reusable UI components 
-  - `App.js` - Main component with routing and theming
-  - `App.css` - CSS and styling files
-  - `index.js` - Entry point of the React application
+- **`src/`**
+  - `components/` - Reusable UI components.
+  - `App.js` - Main component handling routing and theming.
+  - `App.css` - Styling and CSS files.
+  - `index.js` - Entry point of the React application.
 
 ## 🔧 **API Integration**
 
-  - Data fetching from the News API is managed in `src/components/Newslist.js` using Axios.
-  - Data fetching from the News API is managed in `src/components/SoourceSelector.js` using Axios.
+- Data fetching from the News API is managed using Axios in:
+  - `src/components/Newslist.js`
+  - `src/components/SourceSelector.js`
 
 ## 🤝 **Contributing**
 
-We welcome contributions! To contribute:
+Contributions are welcome! To contribute:
 
-- Fork the repository
-- Create a new branch (`git checkout -b feature/your-feature`)
-- Commit your changes (`git commit -am 'Add new feature'`)
-- Push to the branch (`git push origin feature/your-feature`)
-- Open a Pull Request
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Open a Pull Request.
 
 ## 🙌 **Acknowledgements**
 
 - [News API](https://newsapi.org/) for providing the news data.
-- [React.js](https://reactjs.org/) for the amazing UI library.
+- [React.js](https://reactjs.org/) for the powerful UI library.
 
 ---
