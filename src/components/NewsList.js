@@ -38,7 +38,7 @@ const NewsList = ({
               page: currentPage,
               pageSize: 6,
               country: countryParam,
-              apiKey: process.env.REACT_APP_NEWS_API_KEY
+              apiKey: 'cb7a1de9dfb0493fa1a117773ce654b4'
             }
           }
         );

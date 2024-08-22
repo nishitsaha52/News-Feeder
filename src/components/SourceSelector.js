@@ -11,7 +11,7 @@ const SourceSelector = ({ selectedSources, setSelectedSources, darkMode }) => {
     const fetchSources = async () => {
       try {
         const response = await axios.get(
-          `https://newsapi.org/v2/top-headlines/sources?apiKey=${process.env.REACT_APP_NEWS_API_KEY}`
+          `https://newsapi.org/v2/top-headlines/sources?apiKey=cb7a1de9dfb0493fa1a117773ce654b4`
         );
         const filteredSources = filterSources(response.data.sources);
         groupSourcesByCountry(filteredSources);
