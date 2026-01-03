@@ -28,7 +28,7 @@ Ensure you have the following installed:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/news-feeder.git
+   git clone https://github.com/nishitsaha52/news-feeder.git
    ```
 
 2. **Navigate to the Project Directory:**
